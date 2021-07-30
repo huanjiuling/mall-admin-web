@@ -8,7 +8,7 @@
       :before-upload="beforeUpload"
       :on-remove="handleRemove"
       :on-success="handleUploadSuccess"
-      :on-preview="handlePreview"
+      :on-preview="handlePreview" 
       :limit="maxCount"
       :on-exceed="handleExceed"
     >
